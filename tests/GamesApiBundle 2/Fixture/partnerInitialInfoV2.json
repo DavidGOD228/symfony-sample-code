@@ -1,0 +1,557 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "betAmounts": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^[0-9]+(.[0-9]+)?$",
+                "examples": ["0", "1.23"]
+            }
+        },
+        "isCombinationEnabled": {
+            "type": "boolean"
+        },
+        "isItalianSpeech": {
+            "type": "boolean"
+        },
+        "isNumpadEnabled": {
+            "type": "boolean"
+        },
+        "isNotificationEnabled": {
+            "type": "boolean"
+        },
+        "isFullscreenEnabled": {
+            "type": "boolean"
+        },
+        "disableVideoOnInactivity": {
+            "type": "boolean"
+        },
+        "allowExperimentalUI": {
+            "type": "boolean"
+        },
+        "isSubscriptionsEnabled": {
+            "type": "boolean"
+        },
+        "isTerminalView": {
+            "type": "boolean"
+        },
+        "isRtl": {
+            "type": "boolean"
+        },
+        "isSurveillanceEnabled": {
+            "type": "boolean"
+        },
+        "refreshTokenFrequency": {
+            "type": "integer"
+        },
+        "possibleRunsCount": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "rememberLastStake": {
+            "type": "boolean"
+        },
+        "reinitSessionOnGameNavigation": {
+            "type": "boolean"
+        },
+        "showMessagesOnChangedOdds": {
+            "type": "boolean"
+        },
+        "showPlayersBetsSum": {
+            "type": "boolean"
+        },
+        "showClock": {
+            "type": "boolean"
+        },
+        "showGuiTip": {
+            "type": "boolean"
+        },
+        "videoLogoUrl": {
+            "type": "string"
+        },
+        "isGeoBlocked": {
+            "type": "boolean"
+        },
+        "cssCustom": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sockets": {
+            "$ref": "#/definitions/sockets"
+        },
+        "player": {
+            "$ref": "#/definitions/player"
+        },
+        "currency": {
+            "$ref": "#/definitions/currency"
+        },
+        "topWonAmountsCurrency": {
+            "$ref": "#/definitions/currency"
+        },
+        "promotions": {
+            "type": "object",
+            "properties": {
+                "active": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/promotion"
+                    }
+                },
+                "currencyRates": {
+                    "type": [
+                        "object", "null"
+                    ],
+                    "patternProperties": {
+                        "^[a-zA-Z]+$": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "additionalProperties": false
+        },
+        "taxes": {
+            "$ref": "#/definitions/tax"
+        },
+        "games": {
+            "type": "object",
+            "patternProperties": {
+                "^[0-9]+$": {
+                    "$ref": "#/definitions/game"
+                }
+            }
+        },
+        "gaCode": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "betAmounts",
+        "isCombinationEnabled",
+        "isItalianSpeech",
+        "isNumpadEnabled",
+        "isNotificationEnabled",
+        "isFullscreenEnabled",
+        "disableVideoOnInactivity",
+        "allowExperimentalUI",
+        "isSubscriptionsEnabled",
+        "isTerminalView",
+        "isRtl",
+        "isSurveillanceEnabled",
+        "possibleRunsCount",
+        "rememberLastStake",
+        "reinitSessionOnGameNavigation",
+        "showMessagesOnChangedOdds",
+        "showPlayersBetsSum",
+        "showClock",
+        "showGuiTip",
+        "videoLogoUrl",
+        "isGeoBlocked",
+        "cssCustom",
+        "sockets",
+        "player",
+        "currency",
+        "topWonAmountsCurrency",
+        "promotions",
+        "taxes",
+        "games",
+        "gaCode"
+    ],
+    "additionalProperties": false,
+    "definitions": {
+        "currency_rate": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "rate": {
+                    "type": "string",
+                    "pattern": "^[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23"]
+                },
+                "code": {
+                    "type": "string"
+                },
+                "template": {
+                    "type": "string"
+                },
+                "precision": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "id",
+                "rate",
+                "code",
+                "template",
+                "precision"
+            ],
+            "additionalProperties": false
+        },
+        "game": {
+            "type": "object",
+            "properties": {
+                "state": {
+                    "type": "string"
+                },
+                "delay": {
+                    "type": "integer"
+                },
+                "startDelay": {
+                    "type": "integer"
+                },
+                "presetId": {
+                    "type": "integer"
+                },
+                "oddGroups" : {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/odd_group"
+                    }
+                },
+                "oddIds": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "integer"
+                        }
+                    ]
+                },
+                "favoriteOddIds": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "integer"
+                        }
+                    ]
+                },
+                "gameItems": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "integer"
+                                },
+                                "number": {
+                                    "type": "integer"
+                                },
+                                "color": {
+                                    "type": ["string", "null"]
+                                }
+                            },
+                            "required": [
+                                "id",
+                                "number",
+                                "color"
+                            ],
+                            "additionalProperties": false
+                        }
+                    ]
+                },
+                "order": {
+                    "type": "integer"
+                },
+                "optionsData": {
+                    "type": ["object", "null"]
+                }
+            },
+            "required": [
+                "state",
+                "delay",
+                "startDelay",
+                "presetId",
+                "oddGroups",
+                "oddIds",
+                "favoriteOddIds",
+                "gameItems",
+                "order"
+            ],
+            "additionalProperties": false
+        },
+        "tax": {
+            "type": ["object", "null"],
+            "properties": {
+                "enabled": {
+                    "type": "boolean"
+                },
+                "payin": {
+                    "type": "object",
+                    "items": {
+                        "$ref": "#/definitions/tax_setup"
+                    }
+                },
+                "payout": {
+                    "type": "object",
+                    "items": {
+                        "$ref": "#/definitions/tax_setup"
+                    }
+                },
+                "calculationPayInType": {
+                    "type": "string"
+                },
+                "calculationPayOutType": {
+                    "type": "string"
+                },
+                "calculationAmountTaxedType": {
+                    "type": "string"
+                },
+                "payinApplied": {
+                    "type": "boolean"
+                },
+                "payoutApplied": {
+                    "type": "boolean"
+                },
+                "schemeId": {
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "payin",
+                "payout",
+                "schemeId"
+            ]
+        },
+        "currency": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "approximateRate": {
+                    "type": "string",
+                    "pattern": "^[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23"]
+                },
+                "precision": {
+                    "type": "integer"
+                },
+                "template": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "code",
+                "precision",
+                "template"
+            ]
+        },
+        "sockets": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "url",
+                "token"
+            ]
+        },
+        "player": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "balance": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "show": {
+                            "type": "boolean"
+                        }
+                    }
+                },
+                "token": {
+                    "type": ["string", "null"]
+                },
+                "gamification": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "profile": {
+                            "type": [
+                                "object",
+                                "null"
+                            ],
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                },
+                                "signedUser": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "appKey": {
+                            "type": "string"
+                        },
+                        "clientToken": {
+                            "type": "string"
+                        },
+                        "sdkUrl": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "balance",
+                "token"
+            ]
+        },
+        "promotion": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "currencyCode": {
+                    "type": "string"
+                },
+                "currentAmount": {
+                    "type": "string",
+                    "pattern": "^[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23"]
+                },
+                "eligiblePlayerCount": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "enabledForGames": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
+                },
+                "startsAt": {
+                    "type": "string",
+                    "format": "date-time",
+                    "examples": [
+                        "2020-02-27T15:14:00+00:00"
+                    ]
+                },
+                "endsAt": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "format": "date-time",
+                    "examples": [
+                        "2020-02-27T15:14:00+00:00"
+                    ]
+                },
+                "status": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "$comment": "0=pending_active, 1=active, 2=won, 3=deleted, 4=ended"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "amountByType": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "patternProperties": {
+                        "^[a-zA-Z0-9_-]*$": {
+                            "type": "string",
+                            "pattern": "^[0-9]+(.[0-9]+)?$",
+                            "examples": ["0", "1.23"]
+                        }
+                    }
+                }
+            },
+            "required": [
+                "id",
+                "startsAt",
+                "endsAt",
+                "currentAmount",
+                "eligiblePlayerCount",
+                "status",
+                "type",
+                "currencyCode",
+                "enabledForGames",
+                "amountByType"
+            ],
+            "additionalProperties": false
+        },
+        "tax_setup": {
+            "type": "object",
+            "properties": {
+                "from": {
+                    "type": "string",
+                    "pattern": "^-?[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23", "-1"]
+                },
+                "to": {
+                    "type": "string",
+                    "pattern": "^-?[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23", "-1"]
+                },
+                "rate": {
+                    "type": "string",
+                    "pattern": "^[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23"]
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "from",
+                "to",
+                "rate"
+            ]
+        },
+        "odd_group" : {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "number"
+                },
+                "ids": {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                }
+            },
+            "required": ["id", "ids"]
+        }
+    }
+}

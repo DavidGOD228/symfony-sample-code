@@ -1,0 +1,53 @@
+[
+    {
+        "type": 1,
+        "id": 5,
+        "playerId": 1,
+        "status": 2,
+        "oddsValue": "1.1",
+        "currencyTemplate": "eurX",
+        "amountBet": "400",
+        "amountWon": "453",
+        "time": "2020-01-01T00:00:05+00:00",
+        "gameId": 5,
+        "oddsId": 3,
+        "oddsClass": "PLAYER_1",
+        "runId": 2,
+        "runCode": "5DrawCode",
+        "runTime": "2019-12-30T23:00:00+00:00"
+    },
+    {
+        "type": 1,
+        "id": 6,
+        "playerId": 1,
+        "status": 2,
+        "oddsValue": "1.1",
+        "currencyTemplate": "eurX",
+        "amountBet": "400",
+        "amountWon": "453",
+        "time": "2020-01-01T00:00:05+00:00",
+        "gameId": 5,
+        "oddsId": 3,
+        "oddsClass": "PLAYER_1",
+        "runId": 2,
+        "runCode": "5DrawCode",
+        "runTime": "2019-12-30T23:00:00+00:00"
+    },
+    {
+        "type": 1,
+        "id": 7,
+        "playerId": 1,
+        "status": 2,
+        "oddsValue": "1.1",
+        "currencyTemplate": "eurX",
+        "amountBet": "400",
+        "amountWon": "453",
+        "time": "2020-01-01T00:00:05+00:00",
+        "gameId": 5,
+        "oddsId": 3,
+        "oddsClass": "PLAYER_1",
+        "runId": 2,
+        "runCode": "5DrawCode",
+        "runTime": "2019-12-30T23:00:00+00:00"
+    }
+]

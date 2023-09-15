@@ -1,0 +1,163 @@
+{
+    "general": {
+        "banker": 19,
+        "player": 9,
+        "tie": 3,
+        "bankerPair": 0,
+        "playerPair": 1,
+        "natural": 20
+    },
+    "history": [
+        "stats-banker",
+        "stats-banker stats-player-p stats-natural",
+        "stats-banker",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural",
+        "stats-tie",
+        "stats-banker",
+        "stats-player stats-natural",
+        "stats-player",
+        "stats-player",
+        "stats-player",
+        "stats-player stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker",
+        "stats-banker stats-natural",
+        "stats-player stats-natural",
+        "stats-player",
+        "stats-player stats-natural",
+        "stats-tie",
+        "stats-tie",
+        "stats-player stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural",
+        "stats-banker stats-natural"
+    ],
+    "bigRoad": [
+        [
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red"
+        ],
+        {
+            "5": "stats-big-red",
+            "0": "stats-big-blue",
+            "1": "stats-big-blue",
+            "2": "stats-big-blue",
+            "3": "stats-big-blue",
+            "4": "stats-big-blue"
+        },
+        [
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red"
+        ],
+        [
+            "stats-big-blue",
+            "stats-big-blue",
+            "stats-big-blue",
+            "stats-big-blue"
+        ],
+        [
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red",
+            "stats-big-red"
+        ],
+        {
+            "5": "stats-big-red"
+        },
+        {
+            "5": "stats-big-red"
+        }
+    ],
+    "bigEyeBoy": [
+        [
+            "stats-eye-blue"
+        ],
+        [
+            "stats-eye-red",
+            "stats-eye-red",
+            "stats-eye-red"
+        ],
+        [
+            "stats-eye-blue"
+        ],
+        [
+            "stats-eye-red",
+            "stats-eye-red",
+            "stats-eye-red",
+            "stats-eye-red",
+            "stats-eye-red",
+            "stats-eye-red"
+        ],
+        {
+            "5": "stats-eye-red",
+            "0": "stats-eye-blue"
+        },
+        [
+            "stats-eye-red",
+            "stats-eye-red"
+        ],
+        [
+            "stats-eye-blue"
+        ]
+    ],
+    "smallRoad": [
+        [
+            "stats-road-blue-small"
+        ],
+        [
+            "stats-road-red-small",
+            "stats-road-red-small",
+            "stats-road-red-small"
+        ],
+        [
+            "stats-road-blue-small"
+        ],
+        [
+            "stats-road-red-small",
+            "stats-road-red-small",
+            "stats-road-red-small"
+        ],
+        [
+            "stats-road-blue-small"
+        ],
+        [
+            "stats-road-red-small",
+            "stats-road-red-small",
+            "stats-road-red-small"
+        ]
+    ],
+    "cockroachPig": [
+        [
+            "stats-cockroach-blue"
+        ],
+        [
+            "stats-cockroach-red",
+            "stats-cockroach-red",
+            "stats-cockroach-red",
+            "stats-cockroach-red"
+        ],
+        [
+            "stats-cockroach-blue"
+        ],
+        [
+            "stats-cockroach-red",
+            "stats-cockroach-red"
+        ]
+    ]
+}

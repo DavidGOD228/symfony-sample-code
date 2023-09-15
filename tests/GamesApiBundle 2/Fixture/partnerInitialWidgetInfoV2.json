@@ -1,0 +1,177 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "betAmounts": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^[0-9]+(.[0-9]+)?$",
+                "examples": ["0", "1.23"]
+            }
+        },
+        "rememberLastStake": {
+            "type": "boolean"
+        },
+        "showClock": {
+            "type": "boolean"
+        },
+        "isGeoBlocked": {
+            "type": "boolean"
+        },
+        "cssCustom": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sockets": {
+            "$ref": "#/definitions/sockets"
+        },
+        "playerId": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "currency": {
+            "$ref": "#/definitions/currency"
+        },
+        "taxes": {
+            "$ref": "#/definitions/tax"
+        },
+        "availableGamesIds": {
+            "type": "array",
+            "patternProperties": {
+                "items": {
+                    "type": "integer"
+                }
+            }
+        }
+    },
+    "required": [
+        "betAmounts",
+        "rememberLastStake",
+        "showClock",
+        "isGeoBlocked",
+        "cssCustom",
+        "sockets",
+        "playerId",
+        "currency",
+        "taxes",
+        "availableGamesIds"
+    ],
+    "additionalProperties": false,
+    "definitions": {
+        "tax": {
+            "type": ["object", "null"],
+            "properties": {
+                "enabled": {
+                    "type": "boolean"
+                },
+                "payin": {
+                    "type": "object",
+                    "items": {
+                        "$ref": "#/definitions/tax_setup"
+                    }
+                },
+                "payout": {
+                    "type": "object",
+                    "items": {
+                        "$ref": "#/definitions/tax_setup"
+                    }
+                },
+                "calculationPayInType": {
+                    "type": "string"
+                },
+                "calculationPayOutType": {
+                    "type": "string"
+                },
+                "calculationAmountTaxedType": {
+                    "type": "string"
+                },
+                "payinApplied": {
+                    "type": "boolean"
+                },
+                "payoutApplied": {
+                    "type": "boolean"
+                },
+                "schemeId": {
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "payin",
+                "payout"
+            ]
+        },
+        "currency": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "approximateRate": {
+                    "type": "string",
+                    "pattern": "^[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23"]
+                },
+                "precision": {
+                    "type": "integer"
+                },
+                "template": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "code",
+                "precision",
+                "template"
+            ]
+        },
+        "sockets": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "url",
+                "token"
+            ]
+        },
+        "tax_setup": {
+            "type": "object",
+            "properties": {
+                "from": {
+                    "type": "string",
+                    "pattern": "^-?[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23", "-1"]
+                },
+                "to": {
+                    "type": "string",
+                    "pattern": "^-?[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23", "-1"]
+                },
+                "rate": {
+                    "type": "string",
+                    "pattern": "^[0-9]+(.[0-9]+)?$",
+                    "examples": ["0", "1.23"]
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "from",
+                "to",
+                "rate"
+            ]
+        }
+    }
+}

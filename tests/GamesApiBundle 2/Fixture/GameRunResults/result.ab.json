@@ -1,0 +1,17 @@
+{
+    "code": "100",
+    "time": 1672531200000,
+    "gameId": 13,
+    "isReturned": false,
+    "videoUrl": "https:\/\/video.Acme.tv\/blah\/video.mp4",
+    "results": {
+        "joker": "Td",
+        "bahar": [
+            "Td"
+        ],
+        "andar": [
+            "Td"
+        ],
+        "winner": "andar"
+    }
+}

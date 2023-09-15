@@ -1,0 +1,17 @@
+{
+    "type": 1,
+    "id": 2,
+    "playerId": 1,
+    "status": 2,
+    "oddsValue": "1.1",
+    "currencyTemplate": "eurX",
+    "amountBet": "400",
+    "amountWon": "453",
+    "time": "2020-01-01T00:00:00+00:00",
+    "gameId": 18,
+    "oddsId": 1,
+    "oddsClass": "EXACT_ANK",
+    "runId": 1,
+    "runCode": "18DrawCode",
+    "runTime": "2021-07-06T23:00:00+00:00"
+}

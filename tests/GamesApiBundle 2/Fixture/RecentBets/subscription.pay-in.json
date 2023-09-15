@@ -1,0 +1,16 @@
+{
+    "type": 2,
+    "id": 1,
+    "playerId": 123,
+    "status": 1,
+    "oddsValue": "1.05",
+    "currencyTemplate": "eurX",
+    "amountBet": "5",
+    "time": "2020-01-04T00:00:00+00:00",
+    "gameId": 1,
+    "oddsId": 5,
+    "oddsClass": "MY_ODD",
+    "betsCalculated": 0,
+    "betsTotal": 3,
+    "subscriptionId": 60
+}

@@ -1,0 +1,24 @@
+{
+    "code": "100",
+    "time": 1672531200000,
+    "gameId": 18,
+    "isReturned": false,
+    "videoUrl": "https:\/\/video.Acme.tv\/blah\/video.mp4",
+    "results": {
+        "bazaar": {
+            "name": "milan_morning",
+            "type": "opening",
+            "isReturned": false
+        },
+        "cards": [
+            "5c",
+            "5c",
+            "3h"
+        ],
+        "outcome": {
+            "ank": 3,
+            "type": "double",
+            "pana": "355"
+        }
+    }
+}

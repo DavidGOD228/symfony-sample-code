@@ -1,0 +1,233 @@
+{
+    "pages": 1,
+    "bets": [
+        {
+            "id": 8,
+            "type": 4,
+            "oddsValue": "1.5",
+            "amountBet": "1",
+            "amountWon": null,
+            "currencyTemplate": "eurX",
+            "status": 2,
+            "time": "2020-01-03T01:00:00+00:00",
+            "playerId": 1,
+            "gameId": 1,
+            "oddsId": 1,
+            "oddsClass": "BALLX1_YES",
+            "betData": {
+                "cards": [],
+                "choices": [],
+                "items": [],
+                "promotionPayouts": [],
+                "bonus": null,
+                "aams": null,
+                "pushOddsValue": null,
+                "roundNumber": null
+            },
+            "bazaar": {
+                "runs": {
+                    "open": {
+                        "id": 6,
+                        "code": "tara-twilight-yesterday-open",
+                        "time": "2021-09-06T12:30:00+00:00",
+                        "isReturned": true,
+                        "results": null
+                    },
+                    "close": {
+                        "id": 7,
+                        "code": "tara-twilight-yesterday-close",
+                        "time": "2021-09-06T13:30:00+00:00",
+                        "isReturned": false,
+                        "results": null
+                    }
+                },
+                "type": "closing",
+                "name": "tara_twilight",
+                "isReturned": false
+            }
+        },
+        {
+            "id": 7,
+            "type": 4,
+            "oddsValue": "1.5",
+            "amountBet": "1",
+            "amountWon": null,
+            "currencyTemplate": "eurX",
+            "status": 2,
+            "time": "2020-01-03T01:00:00+00:00",
+            "playerId": 1,
+            "gameId": 1,
+            "oddsId": 1,
+            "oddsClass": "BALLX1_YES",
+            "betData": {
+                "cards": [],
+                "choices": [],
+                "items": [],
+                "promotionPayouts": [],
+                "bonus": null,
+                "aams": null,
+                "pushOddsValue": null,
+                "roundNumber": null
+            },
+            "bazaar": {
+                "runs": {
+                    "open": {
+                        "id": 6,
+                        "code": "tara-twilight-yesterday-open",
+                        "time": "2021-09-06T12:30:00+00:00",
+                        "isReturned": true,
+                        "results": null
+                    },
+                    "close": {
+                        "id": 7,
+                        "code": "tara-twilight-yesterday-close",
+                        "time": "2021-09-06T13:30:00+00:00",
+                        "isReturned": false,
+                        "results": null
+                    }
+                },
+                "type": "opening",
+                "name": "tara_twilight",
+                "isReturned": false
+            }
+        },
+        {
+            "id": 6,
+            "type": 4,
+            "oddsValue": "1.5",
+            "amountBet": "1",
+            "amountWon": null,
+            "currencyTemplate": "eurX",
+            "status": 2,
+            "time": "2020-01-03T01:00:00+00:00",
+            "playerId": 1,
+            "gameId": 1,
+            "oddsId": 1,
+            "oddsClass": "BALLX1_YES",
+            "betData": {
+                "cards": [],
+                "choices": [],
+                "items": [],
+                "promotionPayouts": [],
+                "bonus": null,
+                "aams": null,
+                "pushOddsValue": null,
+                "roundNumber": null
+            },
+            "bazaar": {
+                "runs": {
+                    "open": {
+                        "id": 4,
+                        "code": "ruby-midnight-yesterday-open",
+                        "time": "2021-09-05T16:30:00+00:00",
+                        "isReturned": false,
+                        "results": {
+                            "cards": [
+                                "2h",
+                                "2s",
+                                "2d"
+                            ],
+                            "outcome": {
+                                "ank": 6,
+                                "pana": "222",
+                                "type": "triple"
+                            }
+                        }
+                    },
+                    "close": {
+                        "id": 5,
+                        "code": "ruby-midnight-yesterday-close",
+                        "time": "2021-09-05T18:00:00+00:00",
+                        "isReturned": false,
+                        "results": {
+                            "cards": [
+                                "Ac",
+                                "3d",
+                                "Ts"
+                            ],
+                            "outcome": {
+                                "ank": 4,
+                                "pana": "130",
+                                "type": "single"
+                            }
+                        }
+                    }
+                },
+                "type": "closing",
+                "name": "ruby_midnight",
+                "isReturned": false
+            }
+        },
+        {
+            "id": 5,
+            "type": 4,
+            "oddsValue": "1.5",
+            "amountBet": "1",
+            "amountWon": null,
+            "currencyTemplate": "eurX",
+            "status": 2,
+            "time": "2020-01-03T01:00:00+00:00",
+            "playerId": 1,
+            "gameId": 1,
+            "oddsId": 1,
+            "oddsClass": "BALLX1_YES",
+            "betData": {
+                "cards": [],
+                "choices": [],
+                "items": [],
+                "promotionPayouts": [],
+                "bonus": null,
+                "aams": null,
+                "pushOddsValue": null,
+                "roundNumber": null
+            },
+            "bazaar": {
+                "runs": {
+                    "open": {
+                        "id": 4,
+                        "code": "ruby-midnight-yesterday-open",
+                        "time": "2021-09-05T16:30:00+00:00",
+                        "isReturned": false,
+                        "results": {
+                            "cards": [
+                                "2h",
+                                "2s",
+                                "2d"
+                            ],
+                            "outcome": {
+                                "ank": 6,
+                                "pana": "222",
+                                "type": "triple"
+                            }
+                        }
+                    },
+                    "close": {
+                        "id": 5,
+                        "code": "ruby-midnight-yesterday-close",
+                        "time": "2021-09-05T18:00:00+00:00",
+                        "isReturned": false,
+                        "results": {
+                            "cards": [
+                                "Ac",
+                                "3d",
+                                "Ts"
+                            ],
+                            "outcome": {
+                                "ank": 4,
+                                "pana": "130",
+                                "type": "single"
+                            }
+                        }
+                    }
+                },
+                "type": "opening",
+                "name": "ruby_midnight",
+                "isReturned": false
+            }
+        }
+    ],
+    "singleCount": 0,
+    "subscriptionCount": 0,
+    "combinationCount": 0,
+    "bazaarCount": 4
+}

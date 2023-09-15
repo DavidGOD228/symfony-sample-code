@@ -1,0 +1,21 @@
+[
+    {
+        "code": "100",
+        "time": 1577836800000,
+        "gameId": 1,
+        "isReturned": false,
+        "videoUrl": "https:\/\/video.Acme.tv\/blah\/video.mp4",
+        "results": [
+            {
+                "number": 7,
+                "color": "red",
+                "type": 1
+            },
+            {
+                "number": 22,
+                "color": "blue",
+                "type": 1
+            }
+        ]
+    }
+]

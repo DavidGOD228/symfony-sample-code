@@ -1,0 +1,14 @@
+{
+    "code": "100",
+    "time": 1577836800000,
+    "gameId": 11,
+    "isReturned": false,
+    "videoUrl": "https:\/\/video.Acme.tv\/blah\/video.mp4",
+    "results": {
+        "rounds": {
+            "1": "7s",
+            "2": "Ah",
+            "3": "3d"
+        }
+    }
+}

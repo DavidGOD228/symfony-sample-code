@@ -1,0 +1,7 @@
+{
+    "appKey": "captain-up-emulation-app-key",
+    "clientToken": "captain-up-emulation-client-token",
+    "envPrefix": "dev03",
+    "sdkUrl": "https://captainup.com/assets/sdk.js",
+    "profile": null
+}

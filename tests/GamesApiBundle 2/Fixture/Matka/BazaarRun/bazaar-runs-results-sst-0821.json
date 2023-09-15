@@ -1,0 +1,499 @@
+[
+    {
+        "id": 1,
+        "name": "milan_morning",
+        "status": "closed",
+        "runs": {
+            "open": {
+                "runId": 1,
+                "runRoundId": 1,
+                "code": "opening-1",
+                "result": {
+                    "ank": 9,
+                    "pana": "333",
+                    "type": "triple"
+                },
+                "time": 1635224400000,
+                "secondsLeft": 0,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 2,
+                "runRoundId": 2,
+                "code": "closing-1",
+                "result": {
+                    "ank": 7,
+                    "pana": "557",
+                    "type": "double"
+                },
+                "time": 1635229800000,
+                "secondsLeft": 0,
+                "isReturned": false
+            }
+        },
+        "odds": null
+    },
+    {
+        "id": 2,
+        "name": "madhur_matinee",
+        "status": "closed",
+        "runs": {
+            "open": {
+                "runId": 3,
+                "runRoundId": 3,
+                "code": "opening-2",
+                "result": {
+                    "ank": 9,
+                    "pana": "333",
+                    "type": "triple"
+                },
+                "time": 1635231600000,
+                "secondsLeft": 0,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 4,
+                "runRoundId": 4,
+                "code": "closing-2",
+                "result": {
+                    "ank": 7,
+                    "pana": "557",
+                    "type": "double"
+                },
+                "time": 1635235200000,
+                "secondsLeft": 0,
+                "isReturned": false
+            }
+        },
+        "odds": null
+    },
+    {
+        "id": 3,
+        "name": "starline_sunset",
+        "status": "closed",
+        "runs": {
+            "open": {
+                "runId": 5,
+                "runRoundId": 5,
+                "code": "opening-3",
+                "result": {
+                    "ank": 9,
+                    "pana": "333",
+                    "type": "triple"
+                },
+                "time": 1635244200000,
+                "secondsLeft": 0,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 6,
+                "runRoundId": 6,
+                "code": "closing-3",
+                "result": {
+                    "ank": 7,
+                    "pana": "557",
+                    "type": "double"
+                },
+                "time": 1635247800000,
+                "secondsLeft": 0,
+                "isReturned": false
+            }
+        },
+        "odds": null
+    },
+    {
+        "id": 4,
+        "name": "tara_twilight",
+        "status": "closed",
+        "runs": {
+            "open": {
+                "runId": 7,
+                "runRoundId": 7,
+                "code": "opening-4",
+                "result": {
+                    "ank": 9,
+                    "pana": "333",
+                    "type": "triple"
+                },
+                "time": 1635251400000,
+                "secondsLeft": 0,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 8,
+                "runRoundId": 8,
+                "code": "closing-4",
+                "result": {
+                    "ank": 7,
+                    "pana": "557",
+                    "type": "double"
+                },
+                "time": 1635255000000,
+                "secondsLeft": 0,
+                "isReturned": false
+            }
+        },
+        "odds": null
+    },
+    {
+        "id": 5,
+        "name": "navratna_night",
+        "status": "closed",
+        "runs": {
+            "open": {
+                "runId": 9,
+                "runRoundId": 9,
+                "code": "opening-5",
+                "result": {
+                    "ank": 9,
+                    "pana": "333",
+                    "type": "triple"
+                },
+                "time": 1635258600000,
+                "secondsLeft": 0,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 10,
+                "runRoundId": 10,
+                "code": "closing-5",
+                "result": {
+                    "ank": 7,
+                    "pana": "557",
+                    "type": "double"
+                },
+                "time": 1635262200000,
+                "secondsLeft": 0,
+                "isReturned": false
+            }
+        },
+        "odds": null
+    },
+    {
+        "id": 6,
+        "name": "ruby_midnight",
+        "status": "closed",
+        "runs": {
+            "open": {
+                "runId": 11,
+                "runRoundId": 11,
+                "code": "opening-6",
+                "result": {
+                    "ank": 9,
+                    "pana": "333",
+                    "type": "triple"
+                },
+                "time": 1635265800000,
+                "secondsLeft": 0,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 12,
+                "runRoundId": 12,
+                "code": "closing-6",
+                "result": {
+                    "ank": 7,
+                    "pana": "557",
+                    "type": "double"
+                },
+                "time": 1635271200000,
+                "secondsLeft": 0,
+                "isReturned": false
+            }
+        },
+        "odds": null
+    },
+    {
+        "id": 7,
+        "name": "milan_morning",
+        "status": "closed",
+        "runs": {
+            "open": {
+                "runId": 13,
+                "runRoundId": 13,
+                "code": "opening-7",
+                "result": {
+                    "ank": 9,
+                    "pana": "333",
+                    "type": "triple"
+                },
+                "time": 1635310800000,
+                "secondsLeft": 0,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 14,
+                "runRoundId": 14,
+                "code": "closing-7",
+                "result": {
+                    "ank": 7,
+                    "pana": "557",
+                    "type": "double"
+                },
+                "time": 1635316200000,
+                "secondsLeft": 0,
+                "isReturned": false
+            }
+        },
+        "odds": null
+    },
+    {
+        "id": 8,
+        "name": "madhur_matinee",
+        "status": "active",
+        "runs": {
+            "open": {
+                "runId": 15,
+                "runRoundId": 15,
+                "code": "opening-8",
+                "result": {
+                    "ank": 9,
+                    "pana": "333",
+                    "type": "triple"
+                },
+                "time": 1635318000000,
+                "secondsLeft": 0,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 16,
+                "runRoundId": 16,
+                "code": "closing-8",
+                "result": null,
+                "time": 1635321600000,
+                "secondsLeft": 0,
+                "isReturned": false
+            }
+        },
+        "odds": [
+            {
+                "id": 2,
+                "oddsClass": "JODI",
+                "value": 95,
+                "itemsCount": 2
+            },
+            {
+                "id": 3,
+                "oddsClass": "HALF_SANGAM_A",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 4,
+                "oddsClass": "HALF_SANGAM_B",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 5,
+                "oddsClass": "SANGAM",
+                "value": 15000,
+                "itemsCount": 6
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "starline_sunset",
+        "status": "active",
+        "runs": {
+            "open": {
+                "runId": 17,
+                "runRoundId": 17,
+                "code": "opening-9",
+                "result": null,
+                "time": 1635330600000,
+                "secondsLeft": 7740,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 18,
+                "runRoundId": 18,
+                "code": "closing-9",
+                "result": null,
+                "time": 1635334200000,
+                "secondsLeft": 11340,
+                "isReturned": false
+            }
+        },
+        "odds": [
+            {
+                "id": 2,
+                "oddsClass": "JODI",
+                "value": 95,
+                "itemsCount": 2
+            },
+            {
+                "id": 3,
+                "oddsClass": "HALF_SANGAM_A",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 4,
+                "oddsClass": "HALF_SANGAM_B",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 5,
+                "oddsClass": "SANGAM",
+                "value": 15000,
+                "itemsCount": 6
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "tara_twilight",
+        "status": "active",
+        "runs": {
+            "open": {
+                "runId": 19,
+                "runRoundId": 19,
+                "code": "opening-10",
+                "result": null,
+                "time": 1635337800000,
+                "secondsLeft": 14940,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 20,
+                "runRoundId": 20,
+                "code": "closing-10",
+                "result": null,
+                "time": 1635341400000,
+                "secondsLeft": 18540,
+                "isReturned": false
+            }
+        },
+        "odds": [
+            {
+                "id": 2,
+                "oddsClass": "JODI",
+                "value": 95,
+                "itemsCount": 2
+            },
+            {
+                "id": 3,
+                "oddsClass": "HALF_SANGAM_A",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 4,
+                "oddsClass": "HALF_SANGAM_B",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 5,
+                "oddsClass": "SANGAM",
+                "value": 15000,
+                "itemsCount": 6
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "navratna_night",
+        "status": "returned",
+        "runs": {
+            "open": {
+                "runId": 21,
+                "runRoundId": 21,
+                "code": "opening-11",
+                "result": null,
+                "time": 1635345000000,
+                "secondsLeft": 22140,
+                "isReturned": true
+            },
+            "close": {
+                "runId": 22,
+                "runRoundId": 22,
+                "code": "closing-11",
+                "result": null,
+                "time": 1635348600000,
+                "secondsLeft": 25740,
+                "isReturned": false
+            }
+        },
+        "odds": [
+            {
+                "id": 2,
+                "oddsClass": "JODI",
+                "value": 95,
+                "itemsCount": 2
+            },
+            {
+                "id": 3,
+                "oddsClass": "HALF_SANGAM_A",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 4,
+                "oddsClass": "HALF_SANGAM_B",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 5,
+                "oddsClass": "SANGAM",
+                "value": 15000,
+                "itemsCount": 6
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "ruby_midnight",
+        "status": "active",
+        "runs": {
+            "open": {
+                "runId": 23,
+                "runRoundId": 23,
+                "code": "opening-12",
+                "result": null,
+                "time": 1635352200000,
+                "secondsLeft": 29340,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 24,
+                "runRoundId": 24,
+                "code": "closing-12",
+                "result": null,
+                "time": 1635357600000,
+                "secondsLeft": 34740,
+                "isReturned": false
+            }
+        },
+        "odds": [
+            {
+                "id": 2,
+                "oddsClass": "JODI",
+                "value": 95,
+                "itemsCount": 2
+            },
+            {
+                "id": 3,
+                "oddsClass": "HALF_SANGAM_A",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 4,
+                "oddsClass": "HALF_SANGAM_B",
+                "value": 1400,
+                "itemsCount": 4
+            },
+            {
+                "id": 5,
+                "oddsClass": "SANGAM",
+                "value": 15000,
+                "itemsCount": 6
+            }
+        ]
+    }
+]

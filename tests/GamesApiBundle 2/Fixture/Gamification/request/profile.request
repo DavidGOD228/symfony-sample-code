@@ -1,0 +1,5 @@
+secret=captain-up-emulation-app-secret
+user[id]=dev03:b8aa2e33980f50c0b834df57ef1c242f4276ae77d24bbe9a5db12c02fba85da337f722d6d90964450a760034513e67cb278b24e4d005d394e446159e97e10cc2
+user[name]=profile1
+user[image]=https://some-image.jpg
+user[partner_code]=dev03:api

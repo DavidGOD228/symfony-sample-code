@@ -1,0 +1,37 @@
+{
+    "gameId": 1,
+    "oddsId": 1,
+    "oddsClass": "BALLX1_YES",
+    "runId": 1,
+    "runCode": "1DrawCode",
+    "betData": {
+        "cards": [],
+        "choices": [],
+        "items": [],
+        "promotionPayouts": [],
+        "bonus": null,
+        "aams": null,
+        "pushOddsValue": null,
+        "roundNumber": null
+    },
+    "runTime": "2021-04-10T23:00:00+00:00",
+    "id": 2,
+    "type": 1,
+    "oddsValue": "1.5",
+    "currencyTemplate": "eurX",
+    "amountBet": "1",
+    "amountWon": "1.5",
+    "status": 2,
+    "time": "2020-01-01T00:00:00+00:00",
+    "playerId": 1,
+    "runResult": {
+        "isReturned": false,
+        "results": [
+            {
+                "color": "yellow",
+                "number": 1,
+                "type": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "code": "100",
+    "time": 1577836800000,
+    "gameId": 14,
+    "isReturned": false,
+    "videoUrl": "https:\/\/video.Acme.tv\/blah\/video.mp4",
+    "results": {
+        "hands": {
+            "1": [
+                "Kh",
+                "Qh"
+            ],
+            "2": [
+                "4s",
+                "Ts"
+            ],
+            "3": [
+                "5h",
+                "Jh"
+            ],
+            "4": [
+                "6s",
+                "Qs"
+            ],
+            "5": [
+                "7h",
+                "Kh"
+            ],
+            "6": [
+                "8s",
+                "2s"
+            ]
+        },
+        "table": [
+            "3h",
+            "4s",
+            "3h",
+            "6s",
+            "7h"
+        ],
+        "wonHands": [
+            "1"
+        ],
+        "wonCombination": 6
+    }
+}

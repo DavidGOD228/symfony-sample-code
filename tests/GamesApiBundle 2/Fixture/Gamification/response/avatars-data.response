@@ -1,0 +1,25 @@
+{
+  "path": "https://static.Acmetv.eu/gamification/player_profile_avatars/",
+  "levels": {
+    "1": {
+      "avatar_1": "avatar_1.jpg",
+      "avatar_2": "avatar_2.jpg",
+      "avatar_3": "avatar_3.jpg",
+      "avatar_4": "avatar_4.jpg",
+      "avatar_5": "avatar_5.jpg"
+    },
+    "5": {
+      "avatar_6": "avatar_6.jpg",
+      "avatar_7": "avatar_7.jpg",
+      "avatar_8": "avatar_8.jpg",
+      "avatar_9": "avatar_9.jpg",
+      "avatar_10": "avatar_10.jpg"
+    },
+    "11": {
+      "avatar_11": "avatar_11.jpg",
+      "avatar_12": "avatar_12.jpg",
+      "avatar_13": "avatar_13.jpg",
+      "avatar_14": "avatar_14.jpg"
+    }
+  }
+}

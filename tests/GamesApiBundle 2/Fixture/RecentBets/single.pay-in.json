@@ -1,0 +1,16 @@
+{
+    "type": 1,
+    "id": 1,
+    "playerId": 123,
+    "status": 1,
+    "oddsValue": "1.05",
+    "currencyTemplate": "eurX",
+    "amountBet": "5.12",
+    "time": "2020-01-05T00:00:00+00:00",
+    "gameId": 1,
+    "oddsId": 5,
+    "oddsClass": "MY_ODD",
+    "runId": 65536,
+    "runCode": "54327",
+    "runTime": "2020-01-01T00:00:00+00:00"
+}

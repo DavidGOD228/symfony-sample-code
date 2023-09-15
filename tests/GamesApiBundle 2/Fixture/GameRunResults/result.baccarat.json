@@ -1,0 +1,43 @@
+{
+    "code": "100",
+    "time": 1577836800000,
+    "gameId": 6,
+    "isReturned": false,
+    "videoUrl": "https:\/\/video.Acme.tv\/blah\/video.mp4",
+    "results": {
+        "player": [
+            {
+                "card": "Jh",
+                "score": 0
+            },
+            {
+                "card": "Js",
+                "score": 0
+            },
+            {
+                "card": "3d",
+                "score": 3
+            }
+        ],
+        "dealer": [
+            {
+                "card": "3h",
+                "score": 3
+            },
+            {
+                "card": "Jd",
+                "score": 0
+            },
+            {
+                "card": "3h",
+                "score": 3
+            }
+        ],
+        "winner": "dealer",
+        "wonSideOdds": [
+            4,
+            6,
+            9
+        ]
+    }
+}

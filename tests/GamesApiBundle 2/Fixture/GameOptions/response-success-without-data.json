@@ -1,0 +1,113 @@
+[
+    {
+        "data": null,
+        "gameId": 1,
+        "groups": [
+            {
+                "id": 1,
+                "options": [
+                    {
+                        "id": 1,
+                        "itemsCount": 1,
+                        "optionClass": "BALLX1_YES",
+                        "suits": []
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "options": [
+                    {
+                        "id": 2,
+                        "itemsCount": 0,
+                        "optionClass": "BALLX1_NO",
+                        "suits": []
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "options": [
+                    {
+                        "id": 3,
+                        "itemsCount": 0,
+                        "optionClass": "BALLX2_YES",
+                        "suits": []
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "options": [
+                    {
+                        "id": 4,
+                        "itemsCount": 0,
+                        "optionClass": "BALLX3_YES",
+                        "suits": []
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "options": [
+                    {
+                        "id": 5,
+                        "itemsCount": 0,
+                        "optionClass": "BALLX4_YES",
+                        "suits": []
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "options": [
+                    {
+                        "id": 6,
+                        "itemsCount": 0,
+                        "optionClass": "BALLX5_YES",
+                        "suits": []
+                    }
+                ]
+            }
+        ],
+        "items": [
+            {
+                "color": "yellow",
+                "id": 1,
+                "number": 1,
+                "type": 1
+            }
+        ],
+        "presetId": 1
+    },
+    {
+        "data": null,
+        "gameId": 5,
+        "groups": [
+            {
+                "id": 7,
+                "options": [
+                    {
+                        "id": 7,
+                        "itemsCount": 0,
+                        "optionClass": "PLAYER_1",
+                        "suits": []
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "options": [
+                    {
+                        "id": 8,
+                        "itemsCount": 0,
+                        "optionClass": "PLAYER_2",
+                        "suits": []
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "presetId": 2
+    }
+]

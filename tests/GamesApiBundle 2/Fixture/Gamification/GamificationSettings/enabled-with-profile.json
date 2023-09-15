@@ -1,0 +1,14 @@
+{
+    "appKey": "captain-up-emulation-app-key",
+    "clientToken": "captain-up-emulation-client-token",
+    "envPrefix": "dev03",
+    "sdkUrl": "https://captainup.com/assets/sdk.js",
+    "profile": {
+        "id": "dev03:e31914ff5bd83c48a9caf87e317c3d91a5dd4ea6b4ffc4c97a30e1805759f78888ef50d37e00317a561e98b060e69de2d5c8538555ecb0bacdb12bde04ccc49e",
+        "externalId": "U3453D17021621Q3279052K003000871",
+        "name": "some-name",
+        "blocked": true,
+        "signedUser": "NjBkMWE1MWYyOTM1NjMxNmMyYTk0NmZhMzM1MWYzZTMzMzVmZGY4OWEwYzZmMTM5Mzg4NGNkMTE1NTNmYmFlNmY5MDVhYTg4MWE3MGQwZDI1Y2M3NWVmNDM1YjBlOTlkMDk2OTAwNjdiNDg3M2QwZjI0ZjViNGI3MjJiMWI4ZGU",
+        "image": "https:\/\/some-image"
+    }
+}

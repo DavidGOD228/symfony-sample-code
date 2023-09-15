@@ -1,0 +1,76 @@
+{
+    "pages": 1,
+    "bazaars": [
+        {
+            "name": "tara_twilight",
+            "code": "tara-twilight-yesterday-open:tara-twilight-yesterday-close",
+            "isReturned": false,
+            "runs": {
+                "open": {
+                    "time": 1630931400000,
+                    "isReturned": false,
+                    "outcome": {
+                        "ank": 8,
+                        "pana": "279",
+                        "type": "single"
+                    }
+                },
+                "close": {
+                    "time": 1630935000000,
+                    "isReturned": false,
+                    "outcome": {
+                        "ank": 3,
+                        "pana": "256",
+                        "type": "single"
+                    }
+                }
+            }
+        },
+        {
+            "name": "milan_morning",
+            "code": "milan-morning-today-open:milan-morning-today-close",
+            "isReturned": false,
+            "runs": {
+                "open": {
+                    "time": 1630904400000,
+                    "isReturned": true,
+                    "outcome": null
+                },
+                "close": {
+                    "time": 1630909800000,
+                    "isReturned": false,
+                    "outcome": {
+                        "ank": 7,
+                        "pana": "557",
+                        "type": "double"
+                    }
+                }
+            }
+        },
+        {
+            "name": "ruby_midnight",
+            "code": "ruby-midnight-yesterday-open:ruby-midnight-yesterday-close",
+            "isReturned": false,
+            "runs": {
+                "open": {
+                    "time": 1630859400000,
+                    "isReturned": false,
+                    "outcome": {
+                        "ank": 6,
+                        "pana": "222",
+                        "type": "triple"
+                    }
+                },
+                "close": {
+                    "time": 1630864800000,
+                    "isReturned": false,
+                    "outcome": {
+                        "ank": 4,
+                        "pana": "130",
+                        "type": "single"
+                    }
+                }
+            }
+        }
+    ]
+}

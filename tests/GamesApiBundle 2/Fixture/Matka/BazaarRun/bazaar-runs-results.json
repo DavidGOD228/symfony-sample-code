@@ -1,0 +1,222 @@
+[
+    {
+        "id": 2,
+        "name": "tara_twilight",
+        "status": "closed",
+        "runs": {
+            "open": {
+                "runId": 3,
+                "runRoundId": 1,
+                "code": "opening-2",
+                "result": {
+                    "ank": 9,
+                    "pana": "333",
+                    "type": "triple"
+                },
+                "time": 1630828800000,
+                "secondsLeft": 0,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 4,
+                "runRoundId": 2,
+                "code": "closing-2",
+                "result": {
+                    "ank": 7,
+                    "pana": "557",
+                    "type": "double"
+                },
+                "time": 1630832400000,
+                "secondsLeft": 0,
+                "isReturned": false
+            }
+        },
+        "odds": null
+    },
+    {
+        "id": 3,
+        "name": "navratna_night",
+        "status": "returned",
+        "runs": {
+            "open": {
+                "runId": 5,
+                "runRoundId": 3,
+                "code": "opening-3",
+                "result": null,
+                "time": 1630843200000,
+                "secondsLeft": 9000,
+                "isReturned": true
+            },
+            "close": {
+                "runId": 6,
+                "runRoundId": 4,
+                "code": "closing-3",
+                "result": null,
+                "time": 1630846800000,
+                "secondsLeft": 12600,
+                "isReturned": false
+            }
+        },
+        "odds": [
+            {
+                "id": 2,
+                "oddsClass": "JODI",
+                "value": 2.3,
+                "itemsCount": 2
+            },
+            {
+                "id": 3,
+                "oddsClass": "HALF_SANGAM_A",
+                "value": 7.3,
+                "itemsCount": 4
+            },
+            {
+                "id": 4,
+                "oddsClass": "HALF_SANGAM_B",
+                "value": 1.3,
+                "itemsCount": 4
+            },
+            {
+                "id": 5,
+                "oddsClass": "SANGAM",
+                "value": 4.3,
+                "itemsCount": 6
+            },
+            {
+                "id": 6,
+                "oddsClass": "EXACT_ANK",
+                "value": 2.3,
+                "itemsCount": 1
+            },
+            {
+                "id": 7,
+                "oddsClass": "EXACT_SINGLE_PANA",
+                "value": 3,
+                "itemsCount": 2
+            },
+            {
+                "id": 8,
+                "oddsClass": "EXACT_DOUBLE_PANA",
+                "value": 2.8,
+                "itemsCount": 2
+            },
+            {
+                "id": 9,
+                "oddsClass": "EXACT_TRIPLE_PANA",
+                "value": 5.8,
+                "itemsCount": 2
+            },
+            {
+                "id": 10,
+                "oddsClass": "ANK_SINGLE_PANA",
+                "value": 1.8,
+                "itemsCount": 1
+            },
+            {
+                "id": 11,
+                "oddsClass": "ANK_DOUBLE_PANA",
+                "value": 17.3,
+                "itemsCount": 1
+            },
+            {
+                "id": 12,
+                "oddsClass": "ANK_TRIPLE_PANA",
+                "value": 23.3,
+                "itemsCount": 1
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "ruby_midnight",
+        "status": "active",
+        "runs": {
+            "open": {
+                "runId": 7,
+                "runRoundId": 5,
+                "code": "opening-4",
+                "result": null,
+                "time": 1630918800000,
+                "secondsLeft": 84600,
+                "isReturned": false
+            },
+            "close": {
+                "runId": 8,
+                "runRoundId": 6,
+                "code": "closing-4",
+                "result": null,
+                "time": 1630922400000,
+                "secondsLeft": 88200,
+                "isReturned": false
+            }
+        },
+        "odds": [
+            {
+                "id": 2,
+                "oddsClass": "JODI",
+                "value": 2.3,
+                "itemsCount": 2
+            },
+            {
+                "id": 3,
+                "oddsClass": "HALF_SANGAM_A",
+                "value": 7.3,
+                "itemsCount": 4
+            },
+            {
+                "id": 4,
+                "oddsClass": "HALF_SANGAM_B",
+                "value": 1.3,
+                "itemsCount": 4
+            },
+            {
+                "id": 5,
+                "oddsClass": "SANGAM",
+                "value": 4.3,
+                "itemsCount": 6
+            },
+            {
+                "id": 6,
+                "oddsClass": "EXACT_ANK",
+                "value": 2.3,
+                "itemsCount": 1
+            },
+            {
+                "id": 7,
+                "oddsClass": "EXACT_SINGLE_PANA",
+                "value": 3,
+                "itemsCount": 2
+            },
+            {
+                "id": 8,
+                "oddsClass": "EXACT_DOUBLE_PANA",
+                "value": 2.8,
+                "itemsCount": 2
+            },
+            {
+                "id": 9,
+                "oddsClass": "EXACT_TRIPLE_PANA",
+                "value": 5.8,
+                "itemsCount": 2
+            },
+            {
+                "id": 10,
+                "oddsClass": "ANK_SINGLE_PANA",
+                "value": 1.8,
+                "itemsCount": 1
+            },
+            {
+                "id": 11,
+                "oddsClass": "ANK_DOUBLE_PANA",
+                "value": 17.3,
+                "itemsCount": 1
+            },
+            {
+                "id": 12,
+                "oddsClass": "ANK_TRIPLE_PANA",
+                "value": 23.3,
+                "itemsCount": 1
+            }
+        ]
+    }
+]
